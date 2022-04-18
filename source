@@ -1,0 +1,318 @@
+--made by Charlie
+
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local Label = Instance.new("TextLabel")
+local BackroundBox = Instance.new("Frame")
+local StrucidWorking = Instance.new("Frame")
+local ArsenalWorking = Instance.new("Frame")
+local PFWorking = Instance.new("Frame")
+local JailBreakWorking = Instance.new("Frame")
+local TrollGui = Instance.new("Frame")
+local Tyler = Instance.new("ImageButton")
+local minimize = Instance.new("TextButton")
+local GUIlabel = Instance.new("TextLabel")
+local StrucidGuiButton = Instance.new("TextButton")
+local ArsenalGUIButton = Instance.new("TextButton")
+local TrollGuiButton = Instance.new("TextButton")
+local PhantomForcesButton = Instance.new("TextButton")
+local JailBreakButton = Instance.new("TextButton")
+local LoginFrame = Instance.new("Frame")
+local LoginTitle = Instance.new("TextLabel")
+local username = Instance.new("TextBox")
+local password = Instance.new("TextBox")
+local usernametitle = Instance.new("TextLabel")
+local passwordtitle = Instance.new("TextLabel")
+local loginbutton = Instance.new("TextButton")
+local opengui = Instance.new("Frame")
+local open = Instance.new("TextButton")
+local CreatorTitle = Instance.new("TextLabel")
+
+
+
+ScreenGui.Parent = game.CoreGui
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.Active = true
+main.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+main.Position = UDim2.new(0.232448146, 0, 0.23820743, 0)
+main.Size = UDim2.new(0, 436, 0, 267)
+main.Visible = false
+main.Active = true
+main.Draggable = true
+
+Label.Name = "Label"
+Label.Parent = main
+Label.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+Label.BorderColor3 = Color3.fromRGB(40, 40, 40)
+Label.Size = UDim2.new(0, 436, 0, 22)
+Label.Font = Enum.Font.Ubuntu
+Label.Text = "GUI V1 │ Made By Charlie"
+Label.TextColor3 = Color3.fromRGB(0, 0, 0)
+Label.TextSize = 14.000
+
+BackroundBox.Name = "Backround Box"
+BackroundBox.Parent = Label
+BackroundBox.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+BackroundBox.Position = UDim2.new(0.0206422023, 0, 1.40909088, 0)
+BackroundBox.Size = UDim2.new(0, 95, 0, 227)
+
+StrucidWorking.Name = "Strucid Working"
+StrucidWorking.Parent = Label
+StrucidWorking.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+StrucidWorking.Position = UDim2.new(0.199541286, 0, 2.5, 0)
+StrucidWorking.Size = UDim2.new(0, 10, 0, 10)
+
+ArsenalWorking.Name = "Arsenal Working"
+ArsenalWorking.Parent = Label
+ArsenalWorking.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+ArsenalWorking.Position = UDim2.new(0.199541286, 0, 4, 0)
+ArsenalWorking.Size = UDim2.new(0, 10, 0, 10)
+
+PFWorking.Name = "PF Working"
+PFWorking.Parent = Label
+PFWorking.BackgroundColor3 = Color3.fromRGB(255, 69, 0)
+PFWorking.Position = UDim2.new(0.199541286, 0, 5.4545455, 0)
+PFWorking.Size = UDim2.new(0, 10, 0, 10)
+
+JailBreakWorking.Name = "JailBreak Working"
+JailBreakWorking.Parent = Label
+JailBreakWorking.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+JailBreakWorking.Position = UDim2.new(0.199541286, 0, 6.9545455, 0)
+JailBreakWorking.Size = UDim2.new(0, 10, 0, 10)
+
+TrollGui.Name = "IY Working"
+TrollGui.Parent = Label
+TrollGui.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+TrollGui.Position = UDim2.new(0.199541286, 0, 8.45454597, 0)
+TrollGui.Size = UDim2.new(0, 10, 0, 10)
+
+Tyler.Name = "Tyler"
+Tyler.Parent = main
+Tyler.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Tyler.BackgroundTransparency = 1.000
+Tyler.Position = UDim2.new(0, 0, -0.0149812726, 0)
+Tyler.Size = UDim2.new(0, 29, 0, 29)
+Tyler.Image = "rbxassetid://9392051741"
+
+minimize.Name = "minimize"
+minimize.Parent = main
+minimize.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+minimize.BackgroundTransparency = 1.000
+minimize.Position = UDim2.new(0.958715677, 0, 0, 0)
+minimize.Size = UDim2.new(0, 18, 0, 20)
+minimize.Font = Enum.Font.SourceSans
+minimize.Text = "-"
+minimize.TextColor3 = Color3.fromRGB(0, 0, 0)
+minimize.TextSize = 36.000
+
+GUIlabel.Name = "GUIlabel"
+GUIlabel.Parent = main
+GUIlabel.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+GUIlabel.BackgroundTransparency = 0.990
+GUIlabel.Position = UDim2.new(0.0229357798, 0, 0.116104871, 0)
+GUIlabel.Size = UDim2.new(0, 83, 0, 14)
+GUIlabel.Font = Enum.Font.SourceSans
+GUIlabel.Text = "GUI's"
+GUIlabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+GUIlabel.TextSize = 14.000
+
+StrucidGuiButton.Name = "Strucid Gui Button"
+StrucidGuiButton.Parent = main
+StrucidGuiButton.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+StrucidGuiButton.Position = UDim2.new(0.0481651351, 0, 0.191011235, 0)
+StrucidGuiButton.Size = UDim2.new(0, 60, 0, 20)
+StrucidGuiButton.Font = Enum.Font.SourceSans
+StrucidGuiButton.Text = "Strucid GUI"
+StrucidGuiButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+StrucidGuiButton.TextSize = 13.000
+StrucidGuiButton.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet'https://raw.githubusercontent.com/ao-0/methamphetamine-solutions/main/Loader.lua')("https://discord.gg/curPv7uhQc")
+end)
+
+ArsenalGUIButton.Name = "Arsenal GUI Button"
+ArsenalGUIButton.Parent = main
+ArsenalGUIButton.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+ArsenalGUIButton.Position = UDim2.new(0.0481651351, 0, 0.310861409, 0)
+ArsenalGUIButton.Size = UDim2.new(0, 60, 0, 20)
+ArsenalGUIButton.Font = Enum.Font.SourceSans
+ArsenalGUIButton.Text = "Arsenal GUI"
+ArsenalGUIButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+ArsenalGUIButton.TextSize = 13.000
+ArsenalGUIButton.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/GwnStefano/NexusHub/main/Main", true))()
+end)
+
+TrollGuiButton.Name = "IY Button"
+TrollGuiButton.Parent = main
+TrollGuiButton.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+TrollGuiButton.Position = UDim2.new(0.0481651425, 0, 0.677902699, 0)
+TrollGuiButton.Size = UDim2.new(0, 60, 0, 20)
+TrollGuiButton.Font = Enum.Font.SourceSans
+TrollGuiButton.Text = "IY GUI"
+TrollGuiButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TrollGuiButton.TextSize = 13.000
+TrollGuiButton.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source", true))()
+end)
+
+PhantomForcesButton.Name = "Phantom Forces Button"
+PhantomForcesButton.Parent = main
+PhantomForcesButton.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+PhantomForcesButton.Position = UDim2.new(0.0481651425, 0, 0.430711657, 0)
+PhantomForcesButton.Size = UDim2.new(0, 60, 0, 20)
+PhantomForcesButton.Font = Enum.Font.SourceSans
+PhantomForcesButton.Text = "PF GUI"
+PhantomForcesButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+PhantomForcesButton.TextSize = 13.000
+PhantomForcesButton.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://ducksite.xyz/ceri/main.lua"))()
+end)
+
+JailBreakButton.Name = "Jail Break Button"
+JailBreakButton.Parent = main
+JailBreakButton.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+JailBreakButton.Position = UDim2.new(0.0481651425, 0, 0.554307163, 0)
+JailBreakButton.Size = UDim2.new(0, 60, 0, 20)
+JailBreakButton.Font = Enum.Font.SourceSans
+JailBreakButton.Text = "JailBreak GUI"
+JailBreakButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+JailBreakButton.TextSize = 13.000
+JailBreakButton.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/wawsdasdacx/ohascriptnrrewading/main/jbsaxcriptidk1"))()
+end)
+
+LoginFrame.Name = "LoginFrame"
+LoginFrame.Parent = ScreenGui
+LoginFrame.Active = true
+LoginFrame.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+LoginFrame.Position = UDim2.new(0.37931034, 0, 0.401559442, 0)
+LoginFrame.Size = UDim2.new(0, 195, 0, 100)
+LoginFrame.Active = true
+LoginFrame.Draggable = true
+
+LoginTitle.Name = "LoginTitle"
+LoginTitle.Parent = LoginFrame
+LoginTitle.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+LoginTitle.Size = UDim2.new(0, 195, 0, 14)
+LoginTitle.Font = Enum.Font.Ubuntu
+LoginTitle.Text = "Please Login"
+LoginTitle.TextColor3 = Color3.fromRGB(0, 0, 0)
+LoginTitle.TextSize = 14.000
+
+username.Name = "username"
+username.Parent = LoginFrame
+username.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+username.Position = UDim2.new(0.0307692308, 0, 0.280000001, 0)
+username.Size = UDim2.new(0, 131, 0, 15)
+username.Font = Enum.Font.SourceSans
+username.Text = ""
+username.TextColor3 = Color3.fromRGB(0, 0, 0)
+username.TextSize = 14.000
+
+password.Name = "password"
+password.Parent = LoginFrame
+password.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+password.Position = UDim2.new(0.0307692308, 0, 0.569999993, 0)
+password.Size = UDim2.new(0, 131, 0, 15)
+password.Font = Enum.Font.SourceSans
+password.Text = ""
+password.TextColor3 = Color3.fromRGB(0, 0, 0)
+password.TextSize = 14.000
+
+usernametitle.Name = "usernametitle"
+usernametitle.Parent = LoginFrame
+usernametitle.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+usernametitle.BackgroundTransparency = 100.000
+usernametitle.BorderSizePixel = 0
+usernametitle.Position = UDim2.new(-0.123076923, 0, 0.140000001, 0)
+usernametitle.Size = UDim2.new(0, 105, 0, 14)
+usernametitle.Font = Enum.Font.SourceSans
+usernametitle.Text = "Username"
+usernametitle.TextColor3 = Color3.fromRGB(80, 80, 80)
+usernametitle.TextSize = 13.000
+
+passwordtitle.Name = "passwordtitle"
+passwordtitle.Parent = LoginFrame
+passwordtitle.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+passwordtitle.BackgroundTransparency = 100.000
+passwordtitle.BorderSizePixel = 0
+passwordtitle.Position = UDim2.new(-0.123076923, 0, 0.430000007, 0)
+passwordtitle.Size = UDim2.new(0, 105, 0, 14)
+passwordtitle.Font = Enum.Font.SourceSans
+passwordtitle.Text = "Password"
+passwordtitle.TextColor3 = Color3.fromRGB(80, 80, 80)
+passwordtitle.TextSize = 13.000
+
+loginbutton.Name = "loginbutton"
+loginbutton.Parent = LoginFrame
+loginbutton.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+loginbutton.Position = UDim2.new(0.70256412, 0, 0.800000012, 0)
+loginbutton.Size = UDim2.new(0, 52, 0, 14)
+loginbutton.Font = Enum.Font.SourceSans
+loginbutton.Text = "Login"
+loginbutton.TextColor3 = Color3.fromRGB(255, 255, 255)
+loginbutton.TextSize = 14.000
+loginbutton.MouseButton1Down:connect(function()
+	if username.Text == "Tyler" and password.Text == "Is Gay" then
+		LoginFrame.Visible = false 
+		main.Visible = true
+	end
+end)
+
+opengui.Name = "opengui"
+opengui.Parent = ScreenGui
+opengui.Active = true
+opengui.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+opengui.Position = UDim2.new(0.454433501, 0, 0.23391813, 0)
+opengui.Size = UDim2.new(0, 255, 0, 24)
+opengui.Visible = false
+opengui.Active = true
+opengui.Draggable = true
+
+open.Name = "open"
+open.Parent = opengui
+open.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+open.BackgroundTransparency = 1.000
+open.Position = UDim2.new(0.929411054, 0, 0.153333187, 0)
+open.Size = UDim2.new(0, 16, 0, 16)
+open.Font = Enum.Font.SourceSans
+open.Text = "+"
+open.TextColor3 = Color3.fromRGB(0, 0, 0)
+open.TextSize = 30.000
+open.TextXAlignment = Enum.TextXAlignment.Right
+
+CreatorTitle.Name = "CreatorTitle"
+CreatorTitle.Parent = opengui
+CreatorTitle.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+CreatorTitle.BackgroundTransparency = 1.000
+CreatorTitle.Position = UDim2.new(0.0274509806, 0, -1.58945724e-07, 0)
+CreatorTitle.Size = UDim2.new(0, 173, 0, 24)
+CreatorTitle.Font = Enum.Font.Ubuntu
+CreatorTitle.Text = "Made By Charlie"
+CreatorTitle.TextColor3 = Color3.fromRGB(0, 0, 0)
+CreatorTitle.TextSize = 17.000
+CreatorTitle.TextXAlignment = Enum.TextXAlignment.Left
+
+-- Scripts:
+
+local function XXCKA_fake_script() -- minimize.LocalScript 
+	local script = Instance.new('LocalScript', minimize)
+
+	script.Parent.MouseButton1Down:Connect(function() 
+		script.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.opengui.Visible = true
+	end)
+end
+coroutine.wrap(XXCKA_fake_script)()
+local function LTQRIV_fake_script() -- open.LocalScript 
+	local script = Instance.new('LocalScript', open)
+
+	script.Parent.MouseButton1Down:Connect(function() 
+		script.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.main.Visible = true  
+	end)
+	
+end
+coroutine.wrap(LTQRIV_fake_script)()
