@@ -1,4 +1,4 @@
---made by Charlie
+--Made By charlie
 
 local ScreenGui = Instance.new("ScreenGui")
 local main = Instance.new("Frame")
@@ -8,15 +8,43 @@ local StrucidWorking = Instance.new("Frame")
 local ArsenalWorking = Instance.new("Frame")
 local PFWorking = Instance.new("Frame")
 local JailBreakWorking = Instance.new("Frame")
-local TrollGui = Instance.new("Frame")
+local IYWorking = Instance.new("Frame")
+local DaHoodWorking = Instance.new("Frame")
+local AimbloxWorking = Instance.new("Frame")
+local Murdermystery = Instance.new("Frame")
+local BackroundBox2 = Instance.new("Frame")
+local FEHumpWorking = Instance.new("Frame")
+local FEDickWorking = Instance.new("Frame")
+local Script1Working = Instance.new("Frame")
+local Script2Working = Instance.new("Frame")
+local Script3Working = Instance.new("Frame")
+local Script4Working = Instance.new("Frame")
+local FEScript1Working = Instance.new("Frame")
+local FEScript2Working = Instance.new("Frame")
+local FEScript3Working = Instance.new("Frame")
+local FEScript4Working = Instance.new("Frame")
 local Tyler = Instance.new("ImageButton")
 local minimize = Instance.new("TextButton")
 local GUIlabel = Instance.new("TextLabel")
+local FElabel = Instance.new("TextLabel")
 local StrucidGuiButton = Instance.new("TextButton")
 local ArsenalGUIButton = Instance.new("TextButton")
-local TrollGuiButton = Instance.new("TextButton")
+local IYGUI = Instance.new("TextButton")
 local PhantomForcesButton = Instance.new("TextButton")
 local JailBreakButton = Instance.new("TextButton")
+local DaHoodButton = Instance.new("TextButton")
+local AimbloxButton = Instance.new("TextButton")
+local MurderMystery = Instance.new("TextButton")
+local FEHumpButton = Instance.new("TextButton")
+local FEDickButton = Instance.new("TextButton")
+local Script1 = Instance.new("TextButton")
+local Script2 = Instance.new("TextButton")
+local Script3 = Instance.new("TextButton")
+local Script4 = Instance.new("TextButton")
+local FEScript1 = Instance.new("TextButton")
+local FEScript2 = Instance.new("TextButton")
+local FEScript3 = Instance.new("TextButton")
+local FEScript4 = Instance.new("TextButton")
 local LoginFrame = Instance.new("Frame")
 local LoginTitle = Instance.new("TextLabel")
 local username = Instance.new("TextBox")
@@ -28,7 +56,7 @@ local opengui = Instance.new("Frame")
 local open = Instance.new("TextButton")
 local CreatorTitle = Instance.new("TextLabel")
 
-
+--Properties:
 
 ScreenGui.Parent = game.CoreGui
 
@@ -48,7 +76,7 @@ Label.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
 Label.BorderColor3 = Color3.fromRGB(40, 40, 40)
 Label.Size = UDim2.new(0, 436, 0, 22)
 Label.Font = Enum.Font.Ubuntu
-Label.Text = "GUI V1 │ Made By Charlie"
+Label.Text = "GUI V4 │ Made By Charlie"
 Label.TextColor3 = Color3.fromRGB(0, 0, 0)
 Label.TextSize = 14.000
 
@@ -56,7 +84,7 @@ BackroundBox.Name = "Backround Box"
 BackroundBox.Parent = Label
 BackroundBox.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
 BackroundBox.Position = UDim2.new(0.0206422023, 0, 1.40909088, 0)
-BackroundBox.Size = UDim2.new(0, 95, 0, 227)
+BackroundBox.Size = UDim2.new(0, 190, 0, 227)
 
 StrucidWorking.Name = "Strucid Working"
 StrucidWorking.Parent = Label
@@ -82,11 +110,95 @@ JailBreakWorking.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
 JailBreakWorking.Position = UDim2.new(0.199541286, 0, 6.9545455, 0)
 JailBreakWorking.Size = UDim2.new(0, 10, 0, 10)
 
-TrollGui.Name = "IY Working"
-TrollGui.Parent = Label
-TrollGui.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
-TrollGui.Position = UDim2.new(0.199541286, 0, 8.45454597, 0)
-TrollGui.Size = UDim2.new(0, 10, 0, 10)
+IYWorking.Name = "IY Working"
+IYWorking.Parent = Label
+IYWorking.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+IYWorking.Position = UDim2.new(0.199541286, 0, 8.45454597, 0)
+IYWorking.Size = UDim2.new(0, 10, 0, 10)
+
+DaHoodWorking.Name = "DaHood Working"
+DaHoodWorking.Parent = Label
+DaHoodWorking.BackgroundColor3 = Color3.fromRGB(255, 69, 0)
+DaHoodWorking.Position = UDim2.new(0.199541286, 0, 9.90909195, 0)
+DaHoodWorking.Size = UDim2.new(0, 10, 0, 10)
+
+AimbloxWorking.Name = "Aimblox Working"
+AimbloxWorking.Parent = Label
+AimbloxWorking.BackgroundColor3 = Color3.fromRGB(255, 69, 0)
+AimbloxWorking.Position = UDim2.new(0.408256888, 0, 2.45454645, 0)
+AimbloxWorking.Size = UDim2.new(0, 10, 0, 10)
+
+Murdermystery.Name = "Murder mystery"
+Murdermystery.Parent = Label
+Murdermystery.BackgroundColor3 = Color3.fromRGB(255, 69, 0)
+Murdermystery.Position = UDim2.new(0.408256888, 0, 3.95454645, 0)
+Murdermystery.Size = UDim2.new(0, 10, 0, 10)
+
+BackroundBox2.Name = "Backround Box 2"
+BackroundBox2.Parent = Label
+BackroundBox2.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+BackroundBox2.Position = UDim2.new(0.479357809, 0, 1.40909088, 0)
+BackroundBox2.Size = UDim2.new(0, 100, 0, 227)
+
+FEHumpWorking.Name = "FE Hump Working"
+FEHumpWorking.Parent = Label
+FEHumpWorking.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+FEHumpWorking.Position = UDim2.new(0.660550535, 0, 2.45454645, 0)
+FEHumpWorking.Size = UDim2.new(0, 10, 0, 10)
+
+FEDickWorking.Name = "FE Dick Working"
+FEDickWorking.Parent = Label
+FEDickWorking.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+FEDickWorking.Position = UDim2.new(0.660550535, 0, 3.95454645, 0)
+FEDickWorking.Size = UDim2.new(0, 10, 0, 10)
+
+Script1Working.Name = "Script #1 Working"
+Script1Working.Parent = Label
+Script1Working.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Script1Working.Position = UDim2.new(0.408256888, 0, 5.45454645, 0)
+Script1Working.Size = UDim2.new(0, 10, 0, 10)
+
+Script2Working.Name = "Script #2 Working"
+Script2Working.Parent = Label
+Script2Working.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Script2Working.Position = UDim2.new(0.408256888, 0, 6.90909195, 0)
+Script2Working.Size = UDim2.new(0, 10, 0, 10)
+
+Script3Working.Name = "Script #3 Working"
+Script3Working.Parent = Label
+Script3Working.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Script3Working.Position = UDim2.new(0.408256888, 0, 8.45454597, 0)
+Script3Working.Size = UDim2.new(0, 10, 0, 10)
+
+Script4Working.Name = "Script #4 Working"
+Script4Working.Parent = Label
+Script4Working.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Script4Working.Position = UDim2.new(0.408256888, 0, 9.90909195, 0)
+Script4Working.Size = UDim2.new(0, 10, 0, 10)
+
+FEScript1Working.Name = "FE Script #1 Working"
+FEScript1Working.Parent = Label
+FEScript1Working.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+FEScript1Working.Position = UDim2.new(0.660550475, 0, 5.45454645, 0)
+FEScript1Working.Size = UDim2.new(0, 10, 0, 10)
+
+FEScript2Working.Name = "FE Script #2 Working"
+FEScript2Working.Parent = Label
+FEScript2Working.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+FEScript2Working.Position = UDim2.new(0.660550475, 0, 6.90909195, 0)
+FEScript2Working.Size = UDim2.new(0, 10, 0, 10)
+
+FEScript3Working.Name = "FE Script #3 Working"
+FEScript3Working.Parent = Label
+FEScript3Working.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+FEScript3Working.Position = UDim2.new(0.660550475, 0, 8.45454597, 0)
+FEScript3Working.Size = UDim2.new(0, 10, 0, 10)
+
+FEScript4Working.Name = "FE Script #4 Working"
+FEScript4Working.Parent = Label
+FEScript4Working.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+FEScript4Working.Position = UDim2.new(0.660550475, 0, 9.90909195, 0)
+FEScript4Working.Size = UDim2.new(0, 10, 0, 10)
 
 Tyler.Name = "Tyler"
 Tyler.Parent = main
@@ -111,12 +223,23 @@ GUIlabel.Name = "GUIlabel"
 GUIlabel.Parent = main
 GUIlabel.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
 GUIlabel.BackgroundTransparency = 0.990
-GUIlabel.Position = UDim2.new(0.0229357798, 0, 0.116104871, 0)
+GUIlabel.Position = UDim2.new(0.149082571, 0, 0.116104864, 0)
 GUIlabel.Size = UDim2.new(0, 83, 0, 14)
 GUIlabel.Font = Enum.Font.SourceSans
 GUIlabel.Text = "GUI's"
 GUIlabel.TextColor3 = Color3.fromRGB(0, 0, 0)
 GUIlabel.TextSize = 14.000
+
+FElabel.Name = "FElabel"
+FElabel.Parent = GUIlabel
+FElabel.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+FElabel.BackgroundTransparency = 0.990
+FElabel.Position = UDim2.new(1.83582962, 0, -0.0267522857, 0)
+FElabel.Size = UDim2.new(0, 83, 0, 14)
+FElabel.Font = Enum.Font.SourceSans
+FElabel.Text = "FE Script's"
+FElabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+FElabel.TextSize = 14.000
 
 StrucidGuiButton.Name = "Strucid Gui Button"
 StrucidGuiButton.Parent = main
@@ -144,16 +267,16 @@ ArsenalGUIButton.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/GwnStefano/NexusHub/main/Main", true))()
 end)
 
-TrollGuiButton.Name = "IY Button"
-TrollGuiButton.Parent = main
-TrollGuiButton.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
-TrollGuiButton.Position = UDim2.new(0.0481651425, 0, 0.677902699, 0)
-TrollGuiButton.Size = UDim2.new(0, 60, 0, 20)
-TrollGuiButton.Font = Enum.Font.SourceSans
-TrollGuiButton.Text = "IY GUI"
-TrollGuiButton.TextColor3 = Color3.fromRGB(0, 0, 0)
-TrollGuiButton.TextSize = 13.000
-TrollGuiButton.MouseButton1Down:connect(function()
+IYGUI.Name = "IY GUI"
+IYGUI.Parent = main
+IYGUI.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+IYGUI.Position = UDim2.new(0.0481651425, 0, 0.677902699, 0)
+IYGUI.Size = UDim2.new(0, 60, 0, 20)
+IYGUI.Font = Enum.Font.SourceSans
+IYGUI.Text = "IY GUI"
+IYGUI.TextColor3 = Color3.fromRGB(0, 0, 0)
+IYGUI.TextSize = 13.000
+IYGUI.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source", true))()
 end)
 
@@ -178,10 +301,158 @@ JailBreakButton.Size = UDim2.new(0, 60, 0, 20)
 JailBreakButton.Font = Enum.Font.SourceSans
 JailBreakButton.Text = "JailBreak GUI"
 JailBreakButton.TextColor3 = Color3.fromRGB(0, 0, 0)
-JailBreakButton.TextSize = 13.000
+JailBreakButton.TextSize = 12.000
 JailBreakButton.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/wawsdasdacx/ohascriptnrrewading/main/jbsaxcriptidk1"))()
 end)
+
+DaHoodButton.Name = "DaHood Button"
+DaHoodButton.Parent = main
+DaHoodButton.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+DaHoodButton.Position = UDim2.new(0.0481651425, 0, 0.797752857, 0)
+DaHoodButton.Size = UDim2.new(0, 60, 0, 20)
+DaHoodButton.Font = Enum.Font.SourceSans
+DaHoodButton.Text = "DaHood"
+DaHoodButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+DaHoodButton.TextSize = 13.000
+DaHoodButton.MouseButton1Down:connect(function()
+	--DA HUB V3
+getgenv().Toggle = "v"--Must be lowercase
+getgenv().Intro = false
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NoUGotbannedlol/DaHubV3/main/Launch"))()
+end)
+
+AimbloxButton.Name = "Aimblox Button"
+AimbloxButton.Parent = main
+AimbloxButton.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+AimbloxButton.Position = UDim2.new(0.254587144, 0, 0.187265992, 0)
+AimbloxButton.Size = UDim2.new(0, 60, 0, 20)
+AimbloxButton.Font = Enum.Font.SourceSans
+AimbloxButton.Text = "Aimblox"
+AimbloxButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+AimbloxButton.TextSize = 13.000
+AimbloxButton.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/Straden/Scripts/main/stronccMain.lua'),true))()
+end)
+
+MurderMystery.Name = "Murder Mystery"
+MurderMystery.Parent = main
+MurderMystery.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+MurderMystery.Position = UDim2.new(0.254587144, 0, 0.307116181, 0)
+MurderMystery.Size = UDim2.new(0, 60, 0, 20)
+MurderMystery.Font = Enum.Font.SourceSans
+MurderMystery.Text = "Murder Mystery"
+MurderMystery.TextColor3 = Color3.fromRGB(0, 0, 0)
+MurderMystery.TextSize = 10.000
+MurderMystery.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(("https://raw.githubusercontent.com/Ethanoj1/EclipseMM2/master/Script"),true))()
+end)
+
+FEHumpButton.Name = "FE Hump Button"
+FEHumpButton.Parent = main
+FEHumpButton.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+FEHumpButton.Position = UDim2.new(0.504587114, 0, 0.187265992, 0)
+FEHumpButton.Size = UDim2.new(0, 60, 0, 20)
+FEHumpButton.Font = Enum.Font.SourceSans
+FEHumpButton.Text = "FE Hump"
+FEHumpButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+FEHumpButton.TextSize = 13.000
+FEHumpButton.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(("https://raw.githubusercontent.com/DontHaveAUserNameIdea/FEScriptHump/main/source"),true))()
+end)
+
+FEDickButton.Name = "FE Dick Button"
+FEDickButton.Parent = main
+FEDickButton.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+FEDickButton.Position = UDim2.new(0.504587114, 0, 0.307116181, 0)
+FEDickButton.Size = UDim2.new(0, 60, 0, 20)
+FEDickButton.Font = Enum.Font.SourceSans
+FEDickButton.Text = "FE Dick"
+FEDickButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+FEDickButton.TextSize = 13.000
+FEHumpButton.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(("https://raw.githubusercontent.com/DontHaveAUserNameIdea/FEScriptHump/main/source2"),true))()
+end)
+
+Script1.Name = "Script  #1"
+Script1.Parent = main
+Script1.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+Script1.Position = UDim2.new(0.254587144, 0, 0.430711687, 0)
+Script1.Size = UDim2.new(0, 60, 0, 20)
+Script1.Font = Enum.Font.SourceSans
+Script1.Text = "Script #1"
+Script1.TextColor3 = Color3.fromRGB(0, 0, 0)
+Script1.TextSize = 13.000
+
+Script2.Name = "Script  #2"
+Script2.Parent = main
+Script2.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+Script2.Position = UDim2.new(0.254587144, 0, 0.550561905, 0)
+Script2.Size = UDim2.new(0, 60, 0, 20)
+Script2.Font = Enum.Font.SourceSans
+Script2.Text = "Script #2"
+Script2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Script2.TextSize = 13.000
+
+Script3.Name = "Script  #3"
+Script3.Parent = main
+Script3.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+Script3.Position = UDim2.new(0.254587144, 0, 0.677902699, 0)
+Script3.Size = UDim2.new(0, 60, 0, 20)
+Script3.Font = Enum.Font.SourceSans
+Script3.Text = "Script #3"
+Script3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Script3.TextSize = 13.000
+
+Script4.Name = "Script  #4"
+Script4.Parent = main
+Script4.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+Script4.Position = UDim2.new(0.254587144, 0, 0.797752857, 0)
+Script4.Size = UDim2.new(0, 60, 0, 20)
+Script4.Font = Enum.Font.SourceSans
+Script4.Text = "Script #4"
+Script4.TextColor3 = Color3.fromRGB(0, 0, 0)
+Script4.TextSize = 13.000
+
+FEScript1.Name = "FE Script  #1"
+FEScript1.Parent = main
+FEScript1.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+FEScript1.Position = UDim2.new(0.504587173, 0, 0.426966339, 0)
+FEScript1.Size = UDim2.new(0, 60, 0, 20)
+FEScript1.Font = Enum.Font.SourceSans
+FEScript1.Text = "FE Script #1"
+FEScript1.TextColor3 = Color3.fromRGB(0, 0, 0)
+FEScript1.TextSize = 13.000
+
+FEScript2.Name = "FE Script  #2"
+FEScript2.Parent = main
+FEScript2.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+FEScript2.Position = UDim2.new(0.504587173, 0, 0.550561845, 0)
+FEScript2.Size = UDim2.new(0, 60, 0, 20)
+FEScript2.Font = Enum.Font.SourceSans
+FEScript2.Text = "FE Script #2"
+FEScript2.TextColor3 = Color3.fromRGB(0, 0, 0)
+FEScript2.TextSize = 13.000
+
+FEScript3.Name = "FE Script  #3"
+FEScript3.Parent = main
+FEScript3.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+FEScript3.Position = UDim2.new(0.504587173, 0, 0.677902699, 0)
+FEScript3.Size = UDim2.new(0, 60, 0, 20)
+FEScript3.Font = Enum.Font.SourceSans
+FEScript3.Text = "FE Script #3"
+FEScript3.TextColor3 = Color3.fromRGB(0, 0, 0)
+FEScript3.TextSize = 13.000
+
+FEScript4.Name = "FE Script  #4"
+FEScript4.Parent = main
+FEScript4.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+FEScript4.Position = UDim2.new(0.504587173, 0, 0.797752857, 0)
+FEScript4.Size = UDim2.new(0, 60, 0, 20)
+FEScript4.Font = Enum.Font.SourceSans
+FEScript4.Text = "FE Script #4"
+FEScript4.TextColor3 = Color3.fromRGB(0, 0, 0)
+FEScript4.TextSize = 13.000
 
 LoginFrame.Name = "LoginFrame"
 LoginFrame.Parent = ScreenGui
@@ -252,7 +523,7 @@ loginbutton.Position = UDim2.new(0.70256412, 0, 0.800000012, 0)
 loginbutton.Size = UDim2.new(0, 52, 0, 14)
 loginbutton.Font = Enum.Font.SourceSans
 loginbutton.Text = "Login"
-loginbutton.TextColor3 = Color3.fromRGB(255, 255, 255)
+loginbutton.TextColor3 = Color3.fromRGB(0, 0, 0)
 loginbutton.TextSize = 14.000
 loginbutton.MouseButton1Down:connect(function()
 	if username.Text == "Tyler" and password.Text == "Is Gay" then
@@ -265,8 +536,8 @@ opengui.Name = "opengui"
 opengui.Parent = ScreenGui
 opengui.Active = true
 opengui.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
-opengui.Position = UDim2.new(0.454433501, 0, 0.23391813, 0)
-opengui.Size = UDim2.new(0, 255, 0, 24)
+opengui.Position = UDim2.new(0.232448116, 0, 0.230019495, 0)
+opengui.Size = UDim2.new(0, 436, 0, 24)
 opengui.Visible = false
 opengui.Active = true
 opengui.Draggable = true
@@ -297,7 +568,7 @@ CreatorTitle.TextXAlignment = Enum.TextXAlignment.Left
 
 -- Scripts:
 
-local function XXCKA_fake_script() -- minimize.LocalScript 
+local function CYHDQU_fake_script() -- minimize.LocalScript 
 	local script = Instance.new('LocalScript', minimize)
 
 	script.Parent.MouseButton1Down:Connect(function() 
@@ -305,8 +576,8 @@ local function XXCKA_fake_script() -- minimize.LocalScript
 		script.Parent.Parent.Parent.opengui.Visible = true
 	end)
 end
-coroutine.wrap(XXCKA_fake_script)()
-local function LTQRIV_fake_script() -- open.LocalScript 
+coroutine.wrap(CYHDQU_fake_script)()
+local function GPVHEIJ_fake_script() -- open.LocalScript 
 	local script = Instance.new('LocalScript', open)
 
 	script.Parent.MouseButton1Down:Connect(function() 
@@ -315,4 +586,4 @@ local function LTQRIV_fake_script() -- open.LocalScript
 	end)
 	
 end
-coroutine.wrap(LTQRIV_fake_script)()
+coroutine.wrap(GPVHEIJ_fake_script)()
