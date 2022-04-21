@@ -371,7 +371,7 @@ FEDickButton.Text = "FE Dick"
 FEDickButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 FEDickButton.TextSize = 13.000
 FEHumpButton.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet(("https://raw.githubusercontent.com/DontHaveAUserNameIdea/FEScriptHump/main/source2"),true))()
+	loadstring(game:HttpGet(("https://raw.githubusercontent.com/DontHaveAUserNameIdea/CharacterPP-GUI/main/source"),true))()
 end)
 
 Script1.Name = "Script  #1"
