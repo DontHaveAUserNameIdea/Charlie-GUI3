@@ -423,19 +423,22 @@ FEScript1.Font = Enum.Font.SourceSans
 FEScript1.Text = "FE Among us"
 FEScript1.TextColor3 = Color3.fromRGB(0, 0, 0)
 FEScript1.TextSize = 13.000
-FEDickButton.MouseButton1Down:connect(function()
+FEScript1.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet(("https://raw.githubusercontent.com/DontHaveAUserNameIdea/FEAmongus/main/source"),true))()
 end)
 
-FEScript2.Name = "FE Script  #2"
+FEScript2.Name = "FE Trashformer"
 FEScript2.Parent = main
 FEScript2.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
 FEScript2.Position = UDim2.new(0.504587173, 0, 0.550561845, 0)
 FEScript2.Size = UDim2.new(0, 60, 0, 20)
 FEScript2.Font = Enum.Font.SourceSans
-FEScript2.Text = "FE Script #2"
+FEScript2.Text = "FE Trashformer"
 FEScript2.TextColor3 = Color3.fromRGB(0, 0, 0)
 FEScript2.TextSize = 13.000
+FEScript2.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/DontHaveAUserNameIdea/FE-Teashformer/main/source", true))()
+end)
 
 FEScript3.Name = "FE Script  #3"
 FEScript3.Parent = main
