@@ -178,13 +178,13 @@ Script4Working.Size = UDim2.new(0, 10, 0, 10)
 
 FEScript1Working.Name = "FE Script #1 Working"
 FEScript1Working.Parent = Label
-FEScript1Working.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+FEScript1Working.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
 FEScript1Working.Position = UDim2.new(0.660550475, 0, 5.45454645, 0)
 FEScript1Working.Size = UDim2.new(0, 10, 0, 10)
 
 FEScript2Working.Name = "FE Script #2 Working"
 FEScript2Working.Parent = Label
-FEScript2Working.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+FEScript2Working.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
 FEScript2Working.Position = UDim2.new(0.660550475, 0, 6.90909195, 0)
 FEScript2Working.Size = UDim2.new(0, 10, 0, 10)
 
