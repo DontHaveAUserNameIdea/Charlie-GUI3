@@ -370,7 +370,7 @@ FEDickButton.Font = Enum.Font.SourceSans
 FEDickButton.Text = "FE Dick"
 FEDickButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 FEDickButton.TextSize = 13.000
-FEHumpButton.MouseButton1Down:connect(function()
+FEDickButton.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet(("https://raw.githubusercontent.com/DontHaveAUserNameIdea/CharacterPP-GUI/main/source"),true))()
 end)
 
@@ -414,15 +414,18 @@ Script4.Text = "Script #4"
 Script4.TextColor3 = Color3.fromRGB(0, 0, 0)
 Script4.TextSize = 13.000
 
-FEScript1.Name = "FE Script  #1"
+FEScript1.Name = "FE Among us"
 FEScript1.Parent = main
 FEScript1.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
 FEScript1.Position = UDim2.new(0.504587173, 0, 0.426966339, 0)
 FEScript1.Size = UDim2.new(0, 60, 0, 20)
 FEScript1.Font = Enum.Font.SourceSans
-FEScript1.Text = "FE Script #1"
+FEScript1.Text = "FE Among us"
 FEScript1.TextColor3 = Color3.fromRGB(0, 0, 0)
 FEScript1.TextSize = 13.000
+FEDickButton.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(("https://raw.githubusercontent.com/DontHaveAUserNameIdea/FEAmongus/main/source"),true))()
+end)
 
 FEScript2.Name = "FE Script  #2"
 FEScript2.Parent = main
